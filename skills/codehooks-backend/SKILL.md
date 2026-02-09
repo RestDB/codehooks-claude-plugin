@@ -38,11 +38,15 @@ coho prompt
 
 This outputs the **complete codehooks-js API reference** — routing, database operations, queues, jobs, workflows, and all available methods. Read the full output to understand the API before generating code.
 
-### 2. Understand what's deployed
+### 2. Understand the project (run this for existing projects)
 
-Before modifying an existing project, inspect what's already there:
+Before modifying an existing project, get the full picture:
 
 ```bash
+# Run doctor FIRST — returns JSON with collections, stats, recent deploys, and error logs
+# This is the single best command for understanding a project's current state
+coho doctor
+
 # Describe the app structure — collections, schemas, queues, files
 coho describe
 
@@ -50,14 +54,7 @@ coho describe
 coho info --examples
 ```
 
-### 3. Diagnose issues
-
-When something isn't working:
-
-```bash
-# Comprehensive diagnostics — collections, stats, deploys, recent error logs (JSON output)
-coho doctor
-```
+`coho doctor` is the most powerful diagnostic command. It returns structured JSON covering database collections with document counts, deployment history, queue and worker status, and recent error logs. Always run it when joining an existing project or debugging issues.
 
 ### 4. Deploy
 

@@ -32,10 +32,14 @@ Run `coho prompt` and read the full output — this is the complete codehooks-js
 
 If this is an existing project, run:
 ```bash
+# The most powerful command — returns JSON with collections, stats, deploys, and recent error logs
+coho doctor
+
+# Describe the app structure — collections, schemas, queues, files
 coho describe
 ```
 
-This shows what's already deployed — collections, schemas, queues, and files.
+`coho doctor` gives you the full picture of the project: database collections with document counts, deployment history, queue/worker status, and recent error logs. Always run it for existing projects.
 
 ## 5. Ask and build
 
