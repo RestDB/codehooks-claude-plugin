@@ -6,7 +6,10 @@
   "plugins": [
     {
       "name": "codehooks",
-      "source": ".",
+      "source": {
+        "source": "github",
+        "repo": "RestDB/codehooks-claude-plugin"
+      },
       "description": "Develop, deploy, and manage Codehooks.io serverless backends",
       "version": "1.0.0"
     }
