@@ -1,0 +1,10 @@
+{
+  "name": "codehooks",
+  "description": "Develop, deploy, and manage Codehooks.io serverless backends",
+  "version": "1.0.0",
+  "author": {
+    "name": "Codehooks AS"
+  },
+  "repository": "https://github.com/RestDB/codehooks-claude-plugin",
+  "license": "MIT"
+}
