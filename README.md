@@ -19,16 +19,17 @@ coho login
 
 ## Installation
 
-Load the plugin locally:
+Add the marketplace and install the plugin:
+
+```
+/plugin marketplace add RestDB/codehooks-claude-plugin
+/plugin install codehooks@codehooks
+```
+
+Or for local development/testing:
 
 ```bash
 claude --plugin-dir ./codehooks-claude-plugin
-```
-
-Or install from the repository:
-
-```bash
-claude plugin install https://github.com/RestDB/codehooks-claude-plugin
 ```
 
 ## Usage

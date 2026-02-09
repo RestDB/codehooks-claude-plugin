@@ -1,0 +1,14 @@
+{
+  "name": "codehooks",
+  "owner": {
+    "name": "Codehooks AS"
+  },
+  "plugins": [
+    {
+      "name": "codehooks",
+      "source": ".",
+      "description": "Develop, deploy, and manage Codehooks.io serverless backends",
+      "version": "1.0.0"
+    }
+  ]
+}
