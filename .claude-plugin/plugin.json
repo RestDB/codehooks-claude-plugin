@@ -3,8 +3,11 @@
   "description": "Develop, deploy, and manage Codehooks.io serverless backends",
   "version": "1.0.0",
   "author": {
-    "name": "Codehooks AS"
+    "name": "Codehooks AS",
+    "url": "https://codehooks.io"
   },
+  "homepage": "https://codehooks.io/docs/ai-agent-setup",
   "repository": "https://github.com/RestDB/codehooks-claude-plugin",
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": ["serverless", "backend", "api", "webhooks", "database", "codehooks"]
 }
