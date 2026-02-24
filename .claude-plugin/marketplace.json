@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "codehooks",
-      "source": ".",
+      "source": "./plugin",
       "description": "Develop, deploy, and manage Codehooks.io serverless backends",
       "version": "1.0.2"
     }
